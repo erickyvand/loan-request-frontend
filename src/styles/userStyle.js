@@ -16,12 +16,12 @@ const useStyles = makeStyles(theme => ({
 	},
 	submit: {
 		marginTop: '20px',
-		backgroundColor: '#126eb0',
+		backgroundColor: '#277012',
 		color: 'white',
 		textTransform: 'none',
 		fontSize: '1em',
 		'&:hover': {
-			backgroundColor: fade('#4791db', 0.8),
+			backgroundColor: fade('#277012', 0.8),
 		},
 	},
 }));

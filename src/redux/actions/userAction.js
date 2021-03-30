@@ -9,7 +9,6 @@ export const registerAction = data => {
 };
 
 export const loginAction = data => {
-	console.log(data);
 	return {
 		type: LOGIN,
 		payload: loginService(data),

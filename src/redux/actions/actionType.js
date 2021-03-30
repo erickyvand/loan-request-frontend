@@ -1,2 +1,8 @@
 export const REGISTER = 'REGISTER';
 export const LOGIN = 'LOGIN';
+export const GET_REQUEST = 'GET_REQUEST';
+export const REQUEST = 'REQUEST';
+export const GET_ALL_REQUESTS = 'GET_ALL_REQUESTS';
+export const APPROVE_REQUEST = 'APPROVE_REQUEST';
+export const REJECT_REQUEST = 'REJECT_REQUEST';
+export const GET_APPROVED_REQUEST = 'GET_APPROVED_REQUEST';

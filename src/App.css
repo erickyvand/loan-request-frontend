@@ -1,6 +1,14 @@
-.bg-img {
-	background-image: url('../src/assets/brdlogo.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-  height: 100vh;
+.pending-color {
+	color: #9c7711;
+	font-weight: bold;
+}
+
+.approved-color {
+	color: #325c03;
+	font-weight: bold;
+}
+
+.rejected-color {
+	color: #ed0937;
+	font-weight: bold;
 }
