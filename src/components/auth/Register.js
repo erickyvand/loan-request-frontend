@@ -25,7 +25,6 @@ const Register = () => {
 	const history = useHistory();
 
 	const register = useSelector(state => state.register);
-	console.log(register);
 
 	const handleSubmit = values => {
 		dispatch(registerAction(values));
@@ -39,13 +38,13 @@ const Register = () => {
 
 	return (
 		<div className={classes.root}>
-			<Grid container direction='row' justify='center'>
+			<Grid container direction='row' justify='center' alignContent='center'>
 				<Grid
 					item
 					xs={12}
 					sm={12}
-					md={5}
-					lg={5}
+					md={4}
+					lg={4}
 					component={Paper}
 					elevation={6}
 				>

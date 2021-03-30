@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Button, Grid, Paper, TextField, Typography } from '@material-ui/core';
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Formik, Form } from 'formik';
 import useStyles from '../../styles/userStyle';
 import { loginSchema } from '../../validations/user.validation';
@@ -33,7 +33,15 @@ const Login = () => {
 	return (
 		<div className={classes.root}>
 			<Grid container direction='row' justify='center'>
-				<Grid item xs={12} sm={12} md={5} component={Paper} elevation={6}>
+				<Grid
+					item
+					xs={12}
+					sm={12}
+					md={4}
+					lg={4}
+					component={Paper}
+					elevation={6}
+				>
 					<div className={classes.paper}>
 						<Typography color='error'>{login.error}</Typography>
 						<Typography variant='h6'>Login</Typography>
